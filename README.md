@@ -1,4 +1,4 @@
-This is a group project developed with my teammate Lucía (@lualon09)for the Compilers course at UCM.
+This is a group project developed with my teammate [Lucía (@lualon09)](https://github.com/lualon09) for the Compilers course at UCM.
 
 # Project description
 HaskPlus is a hybrid programming language combining concepts from Haskell and C++, designed to explore language design and compilation techniques taught in the course.
