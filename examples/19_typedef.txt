@@ -1,0 +1,45 @@
+
+typedef Enterito = Int; //Enterito es un sinónimo de Int
+typedef Enterito2 = Enterito;
+typedef Listita = List<Int>[5];
+typedef Punterito = Int*;
+typedef ListitasdePunteritos = List<Punterito>[2];
+
+Struct tInfo {
+    Int a;
+    Enterito b;
+    Enterito2 c;
+};
+
+typedef structito = tInfo;
+
+suma(a:Enterito, b:Enterito2) -> Enterito2 {
+    return a + b;
+}
+
+main() -> Int{
+    Int a = 3;
+    Enterito2 b = 4;
+    Enterito c = 3;
+    show(suma(a,b) + suma(b,c)); //debe imprimir 7 + 7 = 14
+    Listita lista = {1,2,3,4,5};
+    show(lista[0]);
+    Punterito p = new Int;
+    *p = 4;
+    show(*p);
+    Int* p2 = new Int;
+    *p2 = 5;
+    ListitasdePunteritos lista2 = {p, p2};
+    show(*lista2[0]);
+    show(*lista2[1]);
+
+    structito aux;
+    aux.a = 2;
+    aux.b = 3;
+    aux.c = 4;
+    show(aux.a);
+    show(aux.b);
+    show(aux.c);
+
+    return 0;
+} 
