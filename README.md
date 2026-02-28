@@ -1,7 +1,7 @@
 This is a group project developed with my teammate Lucía (@lualon09)for the Compilers course at UCM.
 
 # Project description
-HaskPP is a hybrid programming language combining concepts from Haskell and C++, designed to explore language design and compilation techniques taught in the course.
+HaskPlus is a hybrid programming language combining concepts from Haskell and C++, designed to explore language design and compilation techniques taught in the course.
 
 # Instructions to run the project
 ¡Hola!
